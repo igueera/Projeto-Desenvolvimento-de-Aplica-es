@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Igor Gabriel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre mim</a></li>
+                <li><a href="project.html">Projetos</a></li>
+                <li><a href="contact.html" class="active">Contato</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <div class="center">
+                <h1>Entre em Contato</h1>
+                <h2>Ficarei feliz em responder suas dúvidas ou receber feedbacks!</h2>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <form action="https://formspree.io/f/myform" method="POST">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </section>
+
+            <section>
+                <h3>Minha Localização</h3>
+                <img src="./img/mapa.jpeg" alt="Mapa de Localização">
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2024 Igor Gabriel</p>
+        </footer>
+    </div>
+</body>
+</html>
